@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Favoris URL",
+    "description": "Une extension change l'url de votre favoris.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+      "storage",
+      "bookmarks",
+      "tabs"
+    ]
+  }
